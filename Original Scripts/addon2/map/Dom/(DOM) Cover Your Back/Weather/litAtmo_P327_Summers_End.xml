@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+
+<atmosphere
+  density                 = "0.42"
+  fogConcentration        = "0.2"
+  fogBlueShift            = "0.5"  
+  fogCoordinate0          = "-3200"
+  fogCoordinate1          = "1"
+  fogCoordinate2          = "1.4"
+  airColor_red            = "1"
+  airColor_green          = "0.78"
+  airColor_blue           = "0.7"
+  fogColor_red            = "1"
+  fogColor_green          = ".8"
+  fogColor_blue           = ".7"  
+/>
+
+
+<autoExposure
+  correctionFilter        = "0.125"
+  correctionPower         = "1.0"
+  exposureTarget          = "0.7"
+/>
+
+
+<clouds
+  ambientInfluence = "0.3"
+  >
+
+  <layer
+    avgNumClouds            = "50"
+    velocity_x              = "-3"
+    velocity_y              = "0"
+    displaySize_min         = "400"
+    displaySize_max         = "500"
+    displayHeight_min       = "500"
+    displayHeight_max       = "700"
+    simulationHeight_min    = "1000"
+    simulationHeight_max    = "2000"
+  >
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered01.tga"  density = "1"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered02.tga"  density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered03.tga"  density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+  </layer>
+
+  <layer
+    avgNumClouds            = "50"
+    velocity_x              = "-4"
+    velocity_y              = "7"
+    displaySize_min         = "200"
+    displaySize_max         = "250"
+    displayHeight_min       = "100"
+    displayHeight_max       = "200"
+    simulationHeight_min    = "150"
+    simulationHeight_max    = "200"
+  >
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_few.tga"         density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_scattered.tga"   density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_broken.tga"      density = "4"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+  </layer>
+
+</clouds> 
+
+
+<lighting
+  wavelengthR             = "0.0000007"  
+  wavelengthG             = "0.00000055"
+  wavelengthB             = "0.0000004"
+  sunIrradiance_red       = "1650"
+  sunIrradiance_green     = "1400"
+  sunIrradiance_blue      = "1100"
+  moonIrradiance_red      = "0.0002"
+  moonIrradiance_green    = "0.0006"
+  moonIrradiance_blue     = "0.002" 
+  starIrradiance_red      = "0.000001"
+  starIrradiance_green    = "0.000001"
+  starIrradiance_blue     = "0.000001"
+  dayVisionThreshold      = "0.1"
+  daySkyModifier          = "3"    
+  dayDirectModifier       = "1.0"
+  dayAmbientModifier      = "2.0"             
+  nightVisionThreshold    = "0.00001"
+  nightSkyModifier        = "0.01"    
+  nightDirectModifier     = "1.5"
+  nightAmbientModifier    = "2.0"    
+  twilightWidth           = "0.007"
+  incidenceAtHorizon      = "0.15"
+/>
+
+<postGlow
+  greyscalePlane_red      = "0.5"
+  greyscalePlane_green    = "0.6"
+  greyscalePlane_blue     = "0.4"
+  luminanceScale          = "0.25"
+  maskRange               = "0.03137"
+  exposureAdjust          = "0.71"
+/>
+
+<world
+  mapBearing              = "0"
+  mapLatitude             = "50"
+  timeOfYear              = "0.5"
+  timeMoonPhase           = "0.5"
+  albedo_red              = "0.3"
+  albedo_green            = "0.3"
+  albedo_blue             = "0.3"
+/>
+
+

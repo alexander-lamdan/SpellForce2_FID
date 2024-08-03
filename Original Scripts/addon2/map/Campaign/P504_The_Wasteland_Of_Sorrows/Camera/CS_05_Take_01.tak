@@ -1,0 +1,32 @@
+<Takes>
+    <Take Name="CS_05_Take_01">
+        <SourceTrack Type="1" ScriptTag="cs_nightsong" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.65938479" y="-1.06822467" z="15.72566223" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.90000000" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="0.65938479" y="-5.06822467" z="15.72566223" />
+                <Time Value="11.00000000" />
+                <FoV Value="0.90000000" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" ScriptTag="cs_nightsong" RelRotation="1">
+            <KeyFrame>
+                <Position x="-0.94999999" y="-1.15000010" z="1.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.90000000" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="-0.94999999" y="-3.15000010" z="1.00000000" />
+                <Time Value="11.00000000" />
+                <FoV Value="0.90000000" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

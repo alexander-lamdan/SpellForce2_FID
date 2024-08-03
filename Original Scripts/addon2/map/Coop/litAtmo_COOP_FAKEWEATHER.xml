@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<litAtmo>
+  <environment
+    wavelengthR             = "0.0000007"  
+    wavelengthG             = "0.00000055"
+    wavelengthB             = "0.0000004"
+    density                 = "0.5"
+    fogConcentration        = "0.5"
+    fogBlueShift	    = "1"
+    
+    fogCoordinate0          = "0"
+    fogCoordinate1          = "0"
+    fogCoordinate2          = "0"
+    sunIrradiance_red       = "1350"
+    sunIrradiance_green     = "1350"
+    sunIrradiance_blue      = "1350"
+    moonIrradiance_red      = "0.001"
+    moonIrradiance_green    = "0.003"
+    moonIrradiance_blue     = "0.01" 
+    starIrradiance_red      = "0.000001"
+    starIrradiance_green    = "0.000001"
+    starIrradiance_blue     = "0.000001"
+    airColor_red            = "1.0"
+    airColor_green          = "1.0"
+    airColor_blue           = "1.0"
+    fogColor_red            = "1.0"
+    fogColor_green          = "1.0"
+    fogColor_blue           = "1.0"
+    worldAlbedo_red         = "0.3"
+    worldAlbedo_green       = "0.3"
+    worldAlbedo_blue        = "0.3"
+    
+    dayVisionThreshold      = "0.01"
+    dayVisionColor_red      = "1.0"
+    dayVisionColor_green    = "1.0"
+    dayVisionColor_blue     = "1.0"
+    daySkyModifier          = "1.0"    
+    dayDirectModifier	    = "1.5"
+    dayAmbientModifier      = "1.5"    	
+        
+    nightVisionThreshold    = "0.0001"
+    nightVisionColor_red    = "1.05"
+    nightVisionColor_green  = "1.35"
+    nightVisionColor_blue   = "1.8"
+    nightSkyModifier        = "0.1"    
+    nightAmbientModifier    = "1.0"    
+    
+    twilightWidth           = "0.012"
+    
+    geoMapBearing           = "0"
+    geoMapLatitude          = "50"
+    geoTimeOfYear           = "0.5"
+    geoMoonPhase            = "0.5"
+  />
+  
+  <clouds
+  	ambientInfluence = "0.3"
+  	>
+
+    <layer
+      avgNumClouds            = "40"
+      velocity_x              = "-3"
+      velocity_y              = "0"
+      displaySize_min         = "400"
+      displaySize_max         = "500"
+      displayHeight_min       = "500"
+      displayHeight_max       = "700"
+      simulationHeight_min    = "10000"
+      simulationHeight_max    = "15000"
+    >
+
+      <texture  name = "clouds_cirrus_scattered01.tga"  density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+      <texture  name = "clouds_cirrus_scattered02.tga"  density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+      <texture  name = "clouds_cirrus_scattered03.tga"  density = "1"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+
+    </layer>
+
+
+    <layer
+      avgNumClouds            = "40"
+      velocity_x              = "-4"
+      velocity_y              = "7"
+      displaySize_min         = "200"
+      displaySize_max         = "250"
+      displayHeight_min       = "100"
+      displayHeight_max       = "200"
+      simulationHeight_min    = "1500"
+      simulationHeight_max    = "2000"
+    >
+
+      <texture  name = "clouds_cumulonimbus_few.tga"         density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+      <texture  name = "clouds_cumulonimbus_scattered.tga"   density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+      <texture  name = "clouds_cumulonimbus_broken.tga"   density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+
+    </layer>
+
+  </clouds>	
+
+</litAtmo>
+
+
+<!--
+
+    density 		    = "1.0"
+    	globale luftdichte (mit 1 = erde, 0.001 = mond, 10. = venus)
+    	
+    fogConcentration	   
+        dichte von smog/dunst/nebel in der luft (=1.0 typisches klares wetter, 10.0 = diesig, 50.0 = dicht)
+        
+    fogBlueShift	   = "0" ... "1"
+    	typ des nebels, 0 = farbloser wasserdampf, 1 = mikroskopischer staub (smog)
+    	        	    
+    fogCoordinate0
+    fogCoordinate1
+    	skalierung des fog-bereiches    	
+    	begin: - fogCoordinate0 / fogCoordinate1
+    	st㱫e mit der entfernung: fogCoordinate1    	    	    
+    
+    sunIrradiance
+    	lichtst㱫e der sonne
+ 
+    fogColor
+    	farbe der dunsts/nebel partikel in der luft    
+    
+    dayVisionColor_red      = "1.0"
+    dayVisionColor_green    = "1.0"
+    dayVisionColor_blue     = "1.0"    
+    	einf㱢efarbe 
+            
+    daySkyModifier          = "1.0"    
+    	multiplikator f�dome
+
+    dayDirectModifier	    = "1.0"
+	multiplikator f�ektes lich ( = wo sonne hinkommt)
+    
+    dayAmbientModifier      = "1.0"    	
+	multiplikator f�ient licht (= indirektes licht von �l)
+
+-->

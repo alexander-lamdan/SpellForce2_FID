@@ -1,0 +1,18 @@
+<Takes>
+    <Take Name="CS_05_Take_04">
+        <SourceTrack Type="0" ScriptTag="pl_HumanAvatar" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.65938477" y="-1.86822467" z="10.72566223" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.70000001" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" ScriptTag="pl_HumanAvatar" RelRotation="1">
+            <KeyFrame>
+                <Position x="-0.55000000" y="-1.05000005" z="-1.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.70000001" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

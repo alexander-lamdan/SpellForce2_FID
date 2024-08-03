@@ -1,0 +1,28 @@
+<Takes>
+    <Take Name="CS_05_Take_08">
+        <SourceTrack Type="1" ScriptTag="pl_HumanHeroAntara" RelRotation="1">
+            <KeyFrame>
+                <Position x="5.65938477" y="-1.06822467" z="0.1" />
+                <Time Value="0.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="5.65938477" y="-5.06822467" z="0.1" />
+                <Time Value="15.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+		</SourceTrack>
+        <TargetTrack Type="1" ScriptTag="pl_HumanHeroAntara" RelRotation="1">
+            <KeyFrame>
+                <Position x="-0.95000000" y="-1.15000005" z="0.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="-0.95000000" y="-3.65000005" z="0.00000000" />
+                <Time Value="15.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+		</TargetTrack>
+    </Take>
+</Takes>

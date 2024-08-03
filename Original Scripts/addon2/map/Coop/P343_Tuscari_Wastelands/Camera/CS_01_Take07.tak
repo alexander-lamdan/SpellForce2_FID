@@ -1,0 +1,32 @@
+<Takes>
+    <Take Name="CS_01_Take07">
+        <SourceTrack Type="1" Resolution="10" Acceleration="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="415.49188232" y="82.48744965" z="623.73480225" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.61949968" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="415.49188232" y="82.48744965" z="623.73480225" />
+                <Time Value="20.00000000" />
+                <FoV Value="1.10700011" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="1" Resolution="10" Acceleration="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="415.40859985" y="82.01004028" z="626.69537354" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.61949968" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="415.40914917" y="81.89933014" z="626.67541504" />
+                <Time Value="20.00000000" />
+                <FoV Value="0.61949968" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

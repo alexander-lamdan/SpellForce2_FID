@@ -1,0 +1,20 @@
+<Takes>
+    <Take Name="CS_01_Take03a">
+        <SourceTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="415.71777344" y="82.37175751" z="625.09155273" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="415.00796509" y="82.05879974" z="627.98950195" />
+                <Time Value="0.00000000" />
+                <FoV Value="1.01499987" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

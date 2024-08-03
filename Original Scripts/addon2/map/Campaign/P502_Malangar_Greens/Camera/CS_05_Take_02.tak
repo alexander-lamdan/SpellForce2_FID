@@ -1,0 +1,44 @@
+<Takes>
+    <Take Name="CS_05_Take_02">
+        <SourceTrack Type="1" Resolution="10" Acceleration="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="364.24499512" y="13.14983273" z="216.04808044" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="390.38204956" y="14.41385746" z="218.93827820" />
+                <Time Value="5.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="428.41668701" y="14.41385746" z="226.22660828" />
+                <Time Value="10.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="1" Resolution="10" Acceleration="0" RelRotation="0">
+            <KeyFrame>
+                <Position x="361.25518799" y="12.92644119" z="215.94235229" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="387.39495850" y="14.19046593" z="218.77278137" />
+                <Time Value="5.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="425.44458008" y="14.53522587" z="225.83699036" />
+                <Time Value="10.00000000" />
+                <FoV Value="0.55000001" />
+                <UpVector Value="0.00000000" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

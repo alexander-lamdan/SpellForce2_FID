@@ -1,0 +1,28 @@
+<Takes>
+    <Take Name="Sharandal_BeginDialog">
+        <SourceTrack Type="1" Resolution="10" Acceleration="0" ScriptTag="SharandalListener" RelRotation="1">
+            <KeyFrame>
+                <Position x="1.83280945" y="-5.36654758" z="-4.71655273" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="10.11938477" y="-21.00000000" z="-25.00000000" />
+                <Time Value="1.60000002" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="1" Resolution="10" Acceleration="0" ScriptTag="SharandalSpeaker" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.00000000" y="0.00000000" z="0.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="-3.00000000" y="-2.00000000" z="2.60000002" />
+                <Time Value="1.60000002" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

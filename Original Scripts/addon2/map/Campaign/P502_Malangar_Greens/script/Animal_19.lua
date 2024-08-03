@@ -1,0 +1,1 @@
+dofile(GetScriptPath() .. "NPC_Spawn.lua")

@@ -1,0 +1,18 @@
+<Takes>
+    <Take Name="CS_04_Take_01">
+        <SourceTrack Type="0" ScriptTag="Commander_Garret" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.65938477" y="-2.06822467" z="5.25566223" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+        </SourceTrack>
+        <TargetTrack Type="0" ScriptTag="Commander_Garret" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.65000000" y="-1.75000005" z="-1.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+        </TargetTrack>
+    </Take>
+</Takes>

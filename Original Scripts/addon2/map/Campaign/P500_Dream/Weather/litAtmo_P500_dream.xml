@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<atmosphere density="1.000000000" fogConcentration="1.000000000" fogBlueShift="0.569999993" fogCoronaSize="1.000000000" fogCoordinate0="-4600.000000000" fogCoordinate1="1.000000000" fogCoordinate2="1.399999976" airColor_red="0.740000010" airColor_green="0.479999989" airColor_blue="1.000000000" fogColor_red="1.000000000" fogColor_green="0.500000000" fogColor_blue="0.010000000" />
+<autoExposure correctionFilter="0.125000000" correctionPower="1.000000000" exposureTarget="0.699999988" minResponse="0.005000000" maxResponse="8.000000000" />
+<celestialBodies sunTexture="./base/gfx/common/celestialbody_sun.tga" sunDiameter="2.000000000" sunModifier="1.000000000" moonTexture="./base/gfx/common/celestialbody_moon.tga" moonDiameter="2.000000000" moonModifier="1.000000000" starsTexture="./base/gfx/common/celestialbody_star.tga" starsRadiance="0.050000001" starsAzimuthOffset="30.000000000" starsElevationOffset="50.000000000" />
+<lighting wavelengthR="0.000000700" wavelengthG="0.000000550" wavelengthB="0.000000400" sunIrradiance_red="1350.000000000" sunIrradiance_green="1350.000000000" sunIrradiance_blue="1850.000000000" moonIrradiance_red="0.000200000" moonIrradiance_green="0.000600000" moonIrradiance_blue="0.002000000" starIrradiance_red="0.000001000" starIrradiance_green="0.000001000" starIrradiance_blue="0.000001000" dayVisionThreshold="0.100000001" daySkyModifier="1.000000000" dayDirectModifier="1.600000024" dayAmbientModifier="1.399999976" dayExposureTarget="1.000000000" nightVisionThreshold="0.000010000" nightSkyModifier="0.010000000" nightDirectModifier="1.500000000" nightAmbientModifier="1.600000024" nightExposureTarget="0.800000012" twilightWidth="0.007000000" incidenceAtHorizon="0.150000006" ignoreHDRExponents="0" />
+<postGlow greyscalePlane_red="0.500000000" greyscalePlane_green="0.600000024" greyscalePlane_blue="0.400000006" luminanceScale="0.250000000" maskRange="0.031369999" exposureAdjust="0.709999979" />
+<world albedo_red="0.340000004" albedo_green="0.119999997" albedo_blue="0.010000000" />
+<clouds ambientInfluence="0.300000012">
+    <layer avgNumClouds="30.000000000" velocity_x="-3.000000000" velocity_y="0.000000000" displaySize_min="400.000000000" displaySize_max="500.000000000" displayHeight_min="500.000000000" displayHeight_max="700.000000000" simulationHeight_min="10000.000000000" simulationHeight_max="15000.000000000">
+        <texture name="./base/gfx/common/clouds_cirrus_scattered01.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="1.000000000" />
+        <texture name="./base/gfx/common/clouds_cirrus_scattered02.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cirrus_scattered03.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+    <layer avgNumClouds="30.000000000" velocity_x="-4.000000000" velocity_y="0.000000000" displaySize_min="200.000000000" displaySize_max="250.000000000" displayHeight_min="100.000000000" displayHeight_max="200.000000000" simulationHeight_min="1500.000000000" simulationHeight_max="2000.000000000">
+        <texture name="./base/gfx/common/clouds_cumulonimbus_few.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_scattered.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+        <texture name="./base/gfx/common/clouds_cumulonimbus_broken.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="4.000000000" />
+    </layer>
+</clouds>
+<layer avgNumClouds="30.000000000" velocity_x="-3.000000000" velocity_y="0.000000000" displaySize_min="400.000000000" displaySize_max="500.000000000" displayHeight_min="500.000000000" displayHeight_max="700.000000000" simulationHeight_min="10000.000000000" simulationHeight_max="15000.000000000">
+    <texture name="./base/gfx/common/clouds_cirrus_scattered01.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="1.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered02.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered03.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+</layer>
+<layer avgNumClouds="30.000000000" velocity_x="-3.000000000" velocity_y="0.000000000" displaySize_min="400.000000000" displaySize_max="500.000000000" displayHeight_min="500.000000000" displayHeight_max="700.000000000" simulationHeight_min="10000.000000000" simulationHeight_max="15000.000000000">
+    <texture name="./base/gfx/common/clouds_cirrus_scattered01.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="1.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered02.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered03.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+</layer>
+<layer avgNumClouds="30.000000000" velocity_x="-3.000000000" velocity_y="0.000000000" displaySize_min="400.000000000" displaySize_max="500.000000000" displayHeight_min="500.000000000" displayHeight_max="700.000000000" simulationHeight_min="10000.000000000" simulationHeight_max="15000.000000000">
+    <texture name="./base/gfx/common/clouds_cirrus_scattered01.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="1.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered02.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="2.000000000" />
+    <texture name="./base/gfx/common/clouds_cirrus_scattered03.tga" min_u="0.000000000" min_v="0.000000000" max_u="1.000000000" max_v="1.000000000" density="3.000000000" />
+</layer>

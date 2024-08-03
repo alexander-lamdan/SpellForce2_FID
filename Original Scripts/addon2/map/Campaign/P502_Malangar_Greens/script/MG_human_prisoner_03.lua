@@ -1,0 +1,1 @@
+dofile(GetScriptPath() .. "FreeSalveEntity.lua")

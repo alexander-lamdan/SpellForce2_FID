@@ -1,0 +1,28 @@
+<Takes>
+    <Take Name="CS_02_Take_05">
+        <SourceTrack Type="2" ScriptTag="pl_HumanAvatar" RelRotation="1">
+            <KeyFrame>
+                <Position x="0.65938477" y="-2.06822467" z="1.72566223" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="0.65938477" y="-1.06822467" z="-3.72566223" />
+                <Time Value="4.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+		</SourceTrack>
+        <TargetTrack Type="2" ScriptTag="pl_HumanAvatar" RelRotation="1">
+            <KeyFrame>
+                <Position x="-0.55000000" y="-1.15000005" z="-1.00000000" />
+                <Time Value="0.00000000" />
+                <FoV Value="0.80000001" />
+            </KeyFrame>
+            <KeyFrame>
+                <Position x="-0.95000000" y="-1.15000005" z="1.00000000" />
+                <Time Value="4.00000000" />
+                <FoV Value="1.00000001" />
+            </KeyFrame>
+		</TargetTrack>
+    </Take>
+</Takes>

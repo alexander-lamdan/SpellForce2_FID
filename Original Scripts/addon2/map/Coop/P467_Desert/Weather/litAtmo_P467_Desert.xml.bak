@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+
+<atmosphere
+  density                 = "0.4"
+  fogConcentration        = "0.8"
+  fogBlueShift            = "1"  
+  fogCoordinate0          = "-60000"
+  fogCoordinate1          = "1"
+  fogCoordinate2          = "1.8"
+  airColor_red            = "1"
+  airColor_green          = "0.7"
+  airColor_blue           = "0.5"
+  fogColor_red            = "1"
+  fogColor_green          = "0.8"
+  fogColor_blue           = "0.5"  
+/>
+
+
+<autoExposure
+  correctionFilter        = "0.125"
+  correctionPower         = "1.0"
+  exposureTarget          = "0.7"	   	
+/>
+
+
+<celestialBodies
+   sunDiameter            = "2"
+   sunTexture             = "./base/gfx/common/celestialbody_sun.tga"
+   sunModifier            = "0.5"
+   moonDiameter           = "3.000"
+   moonTexture            = "./base/gfx/common/celestialbody_moon.tga"
+   moonModifier           = "0.04"
+   starsTexture           = "./base/gfx/common/celestialbody_star.tga"
+   starsRadiance          = "0.1"
+   starsAzimuthOffset     = "10"
+   starsElevationOffset   = "40"
+
+/>
+
+
+<clouds
+  ambientInfluence = "0.3"
+  >
+
+  <layer
+    avgNumClouds            = "0"
+    velocity_x              = "-3"
+    velocity_y              = "0"
+    displaySize_min         = "400"
+    displaySize_max         = "500"
+    displayHeight_min       = "500"
+    displayHeight_max       = "700"
+    simulationHeight_min    = "1000"
+    simulationHeight_max    = "2000"
+  >
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered01.tga"  density = "1"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered02.tga"  density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cirrus_scattered03.tga"  density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+  </layer>
+
+  <layer
+    avgNumClouds            = "0"
+    velocity_x              = "-2"
+    velocity_y              = "7"
+    displaySize_min         = "150"
+    displaySize_max         = "350"
+    displayHeight_min       = "30"
+    displayHeight_max       = "200"
+    simulationHeight_min    = "30"
+    simulationHeight_max    = "200"
+  >
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_few.tga"         density = "2"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_scattered.tga"   density = "3"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+    <texture  name = "./base/gfx/common/clouds_cumulonimbus_broken.tga"      density = "4"  min_u = "0" max_u = "1" min_v = "0" max_v = "1"  />
+  </layer>
+
+</clouds> 
+
+
+<lighting
+  wavelengthR             = "0.0000007"  	
+  wavelengthG             = "0.00000055"
+  wavelengthB             = "0.0000004"
+  sunIrradiance_red       = "1650"		
+  sunIrradiance_green     = "1450"
+  sunIrradiance_blue      = "900"
+  moonIrradiance_red      = "0.0004"
+  moonIrradiance_green    = "0.0006"
+  moonIrradiance_blue     = "0.0005"
+  starIrradiance_red      = "0.000002"
+  starIrradiance_green    = "0.000002"
+  starIrradiance_blue     = "0.000002"
+  dayVisionThreshold      = "3"
+  daySkyModifier          = "1.0"      
+  dayDirectModifier       = "1.0"
+  dayAmbientModifier      = "2.0"  
+  dayExposureTarget       = "1.0"  
+  nightVisionThreshold    = "0.00001"
+  nightSkyModifier        = "0.5"
+  nightDirectModifier     = "2"
+  nightAmbientModifier    = "4"      
+  nightExposureTarget     = "0.15"
+  twilightWidth           = "0.005"
+  incidenceAtHorizon      = "0.05"
+/>
+
+<postGlow
+  greyscalePlane_red      = "0.5"
+  greyscalePlane_green    = "0.6"
+  greyscalePlane_blue     = "0.4"
+  luminanceScale          = "0.25"
+  maskRange               = "0.03137"
+  exposureAdjust          = "0.5"
+/>
+
+<world
+  mapBearing              = "0"			
+  mapLatitude             = "50"
+  timeOfYear              = "0.5"	
+  timeMoonPhase           = "0.5"
+  albedo_red              = "0.3"
+  albedo_green            = "0.3"
+  albedo_blue             = "0.3"
+  terrainSpecular         = "0"
+  oceanReflects           = "1"
+  oceanColorParameters    = "OceanCarribean2"
+  oceanWaveParameters     = "DreamingSands"
+  oceanHeight             = "18"
+/>
+
+

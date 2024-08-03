@@ -1,0 +1,1 @@
+dofile(GetScriptPath() .. "Tower1Wave.lua")

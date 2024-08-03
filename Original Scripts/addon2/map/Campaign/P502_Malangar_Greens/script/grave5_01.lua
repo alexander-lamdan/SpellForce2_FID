@@ -1,0 +1,1 @@
+dofile(GetScriptPath() .. "SharedGraveSpawn5.lua")
