@@ -5,7 +5,7 @@
 # I need to add more options for this
 import pathlib
 import os
-os.walk('.')
+
 lua_map_name = input("Please enter the map name you need\n")
 lua_template = '''State
 {
